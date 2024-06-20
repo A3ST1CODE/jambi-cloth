@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing | Template</title>
+    <link rel="stylesheet" href="./style.css">
+    <!--google font-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@1,100;1,300&family=Rubik:ital,wght@0,300;0,400;0,800;0,900;1,400;1,500&family=The+Nautigal:wght@700&display=swap"
+        rel="stylesheet">
+    <!--fonasome cdn-->
+    <script src="https://kit.fontawesome.com/a10194993b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--header-->
+    <div class="container">
+        <div class="navber">
+            <div class="logo">
+                <a href="./index.html"><img src="./images/logo.png" width="126px"></a>
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="./index.html">Beranda</a></li>
+                    <li><a href="./products.html">Produk</a></li>
+                    <li><a href="./acount.html">Akun</a></li>
+                </ul>
+            </nav>
+            <a href="./cart.html"><img src="./images/cart.png" width="30px" height="30px"></a>
+            <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    <!--header end-->
+
+    <!-- accout page -->
+    <div class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./images/image1.png" alt="" width="60%">
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick="login()">Masuk</span>
+                            <span onclick="register()">Daftar</span>
+                            <hr id="ind">
+                        </div>
+                        <form id="log">
+                            <input type="text" placeholder="User Name" required>
+                            <input type="password" placeholder="Enter Password" required>
+                            <button type="button" class="btn">Masuk</button>
+                            <a href="">Lupa Password</a>
+                        </form>
+                        <form id="reg">
+                            <input type="text" placeholder="User Name" required>
+                            <input type="email" placeholder="Enter a Email">
+                            <input type="password" placeholder="Enter Password" required>
+                            <button type="button" class="btn">Daftar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Dowload Our App</h3>
+                    <div class="app-logo">
+                        <a href="#"><img src="images/play-store.png" alt=""></a>
+                        <a href="#"><img src="images/app-store.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy; 2024 Jambi Cloth</p>
+        </div>
+    </footer>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>

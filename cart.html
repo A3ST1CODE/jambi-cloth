@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing | Template</title>
+    <link rel="stylesheet" href="./style.css">
+    <!--google font-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@1,100;1,300&family=Rubik:ital,wght@0,300;0,400;0,800;0,900;1,400;1,500&family=The+Nautigal:wght@700&display=swap"
+        rel="stylesheet">
+    <!--fonasome cdn-->
+    <script src="https://kit.fontawesome.com/a10194993b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--header-->
+    <div class="container">
+        <div class="navber">
+            <div class="logo">
+                <a href="./index.html"><img src="./images/logo.png" width="126px"></a>
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="./index.html">Beranda</a></li>
+                    <li><a href="./products.html">Produk</a></li>
+                    <li><a href="./acount.html">Akun</a></li>
+                </ul>
+            </nav>
+            <a href="./cart.html"><img src="./images/cart.png" width="30px" height="30px"></a>
+            <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    <!--header end-->
+    <div class="small-container card-page">
+        <table>
+            <tr>
+                <th>Produk</th>
+                <th>Jumlah</th>
+                <th>Harga</th>
+            </tr>
+            <tr>
+                <!--tr 1-->
+                <td>
+                    <div class="cart-info">
+                        <img src="images/product-1.jpg" alt="">
+                        <div>
+                            <p>502™ Taper Fit Levi’s® Flex Men's Jeans</p>
+                            <small>Rp.180.000</small> <br>
+                            <a href="#">Hapus</a>
+                        </div>
+                    </div>          
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rp.180.000</td>
+            </tr>
+            <tr>
+                <!--tr 1-->
+                <td>
+                    <div class="cart-info">
+                        <img src="images/product-2.jpg" alt="">
+                        <div>
+                            <p>511™ Slim Fit Men's Jeans</p>
+                            <small>Rp.160.000</small> <br>
+                            <a href="#">Hapus</a>
+                        </div>
+                    </div>          
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rp.160.000</td>
+            </tr>
+            <tr>
+                <!--tr 1-->
+                <td>
+                    <div class="cart-info">
+                        <img src="images/product-3.jpg" alt="">
+                        <div>
+                            <p>517™ Boot Cut Men's Jeans</p>
+                            <small>Rp.160.000</small> <br>
+                            <a href="#">Hapus</a>
+                        </div>
+                    </div>          
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rp.160.000</td>
+            </tr>
+        </table>
+        <div class="tottal-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>Rp.500.000</td>
+                </tr>
+                <tr>
+                    <td>Pajak</td>
+                    <td>Rp.0</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>Rp.500.000</td>
+                </tr>
+            </table>
+        </div>
+        <a href="./checkout.html" class="btn" style="float: right; margin-top: 10px;">Checkout</a>
+    </div>
+    <!--footer-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Dowload Our App</h3>
+                    <div class="app-logo">
+                        <a href="#"><img src="images/play-store.png" alt=""></a>
+                        <a href="#"><img src="images/app-store.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy; 2024 Jambi Cloth</p>
+        </div>
+    </footer>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>

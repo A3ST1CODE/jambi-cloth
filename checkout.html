@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | Clothing Store</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@1,100;1,300&family=Rubik:ital,wght@0,300;0,400;0,800;0,900;1,400;1,500&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a10194993b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navber">
+            <div class="logo">
+                <a href="./index.html"><img src="./images/logo.png" width="126px"></a>
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="./index.html">Beranda</a></li>
+                    <li><a href="./products.html">Produk</a></li>
+                    <li><a href="./acount.html">Akun</a></li>
+                </ul>
+            </nav>
+            <a href="./cart.html"><img src="./images/cart.png" width="30px" height="30px"></a>
+            <img src="./images/menu.png" class="menu-icon" onclick="menutoggol()">
+        </div>
+    </div>
+    <div class="small-container checkout-page">
+        <div class="row">
+            <div class="col-2">
+                <h1>Detail Pengiriman</h1>
+                <form action="">
+                    <input type="text" placeholder="Nama">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Nomor Telepon">
+                    <input type="text" placeholder="Alamat">
+                    <input type="text" placeholder="Kota">
+                    <input type="text" placeholder="Kode Pos">
+                    <input type="submit" value="Kirim" class="btn">
+                </form>
+            </div>
+            <div class="col-2 tottal-price">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>Rp.500.000</td>
+                    </tr>
+                    <tr>
+                        <td>Pajak</td>
+                        <td>Rp.0</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>Rp.500.000</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Tentang Kami</h3>
+                    <ul>
+                        <li><a href="#">Tenatang Kami</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Syarat & Ketentuan</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Ikuti Kami</h3>
+                    <ul>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Dowload Aplikasi Kami</h3>
+                    <div class="app-logo">
+                        <a href="#"><img src="images/play-store.png" alt=""></a>
+                        <a href="#"><img src="images/app-store.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy; 2024 Jambi Cloth</p>
+        </div>
+    </footer>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
